@@ -1,4 +1,8 @@
-## 注：如果是之前 clone 或 Fork 的朋友 vercel 显示 404 可能需要更新下代码
+* Build from [Bpazy/running_page](https://github.com/Bpazy/running_page)
+* Supported by [yihong0618/running_page](https://github.com/yihong0618/running_page)
+
+以下内容来自于 [yihong0618/running_page](https://github.com/yihong0618/running_page)
+------------
 
 <p align="center">
   <img width="150" src="https://raw.githubusercontent.com/shaonianche/gallery/master/running_page/running_page_logo.png" />

@@ -86,7 +86,7 @@ jobs:
       - name: Run sync Strava script
         if: env.RUN_TYPE == 'strava'
         run: |
-          python scripts/strava_sync.py ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }}
+          python scripts/strava_sync.py ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }} --only-run
         # python scripts/garmin_sync.py ${{ secrets.GARMIN_EMAIL }} ${{ secrets.GARMIN_PASSWORD }} --only-run --is-cn
 
       - name: Run sync Codoon script
